@@ -1,0 +1,28 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "this is a mean app from scratch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "angularJs",
+    "node.js",
+    "express",
+    "mongo"
+  ],
+  "author": "mean user",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
+}
